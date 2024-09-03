@@ -27,3 +27,43 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+img{
+    width: 600px;
+    height: 400px;
+    border: 5px solid yellow;    
+    border-radius: 50px;
+    box-shadow: 10px -16px 30px 5px #6d00fb;
+}
+h1{
+    text-shadow:#6d00fb 1px 0 8px;
+    font-size: 54px;
+}
+body{
+
+    background-image:linear-gradient( rgb(251, 64, 64),rgb(116, 201, 241), yellow), url("https://media.greenmatters.com/brand-img/p4_wL7QtK/0x0/nike-shoes-1691410282058.jpg");
+    background-color: rgb(243, 183, 106);
+    background-repeat: no-repeat;
+    background-blend-mode:darken;
+    background-size: cover;
+    text-align:center;
+    text-decoration:none;
+    font-size:medium;
+
+}
+/* div{
+    float:center;
+    
+} */
+/* p{
+    inline-size: 50px;
+    overflow-wrap: break-word;
+} */
+
+#row1{
+    float: left;
+    border: 20px #555;
+    
+}
+#row2{
+    float: right;
+}
