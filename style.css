@@ -39,32 +39,60 @@ h1{
     text-shadow:#6d00fb 1px 0 8px;
     font-size: 54px;
 }
+p{
+    text-shadow: #170133 1px 0 1px;
+    border: #f6f6f6;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+
+}
 body{
     /* background-image:linear-gradient( rgb(251, 64, 64),rgb(116, 201, 241), yellow), url("https://picsum.photos/600"); */
     background-image:linear-gradient( rgb(251, 64, 64),rgb(116, 201, 241), yellow), url("https://media.greenmatters.com/brand-img/p4_wL7QtK/0x0/nike-shoes-1691410282058.jpg");
     background-color: rgb(243, 183, 106);
     background-repeat: no-repeat;
-    background-blend-mode:darken;
+    background-blend-mode:lighten;
     background-size: cover;
     text-align:center;
     text-decoration:none;
     font-size:medium;
+    
 
 }
-/* div{
-    float:center;
-    
-} */
-/* p{
-    inline-size: 50px;
-    overflow-wrap: break-word;
-} */
 
-#row1{
-    float: left;
-    border: 20px #555;
-    
+.leftside{
+    display: flex;
+    flex-flow: row;
+    text-shadow: #170133;
+
+
 }
 #row2{
-    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#row2-section2{
+    color: blue;
+    font-size: 15pt;
+    font-weight: 900;
+    width: 75%;
+    text-indent: 20pt;
+    text-wrap:wrap;
+    
+}
+#row1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#row1-section2{
+    color: rgb(255, 21, 0);
+    font-size: 15pt;
+    font-weight: 900;
+    width: 75%;
+    text-indent: 20pt;
+    text-wrap:wrap;
+    
 }
